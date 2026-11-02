@@ -50,7 +50,8 @@ html[dir=rtl] .phone{transform:rotate(2deg)}
 .game{display:flex;gap:14px;align-items:center;background:var(--card);border:2px solid var(--ink);border-radius:18px;box-shadow:0 5px 0 var(--ink);padding:16px;border-inline-start:8px solid var(--c)}
 .game h3{color:var(--c);margin:0 0 2px}
 .game p{margin:0}
-.badge{flex:none;width:64px;height:64px;border-radius:18px;background:var(--c);color:var(--ink);display:grid;place-items:center;font-family:"Baloo Bhaijaan 2","Baloo 2",sans-serif;font-weight:800;font-size:1.7rem;border:2px solid var(--ink);box-shadow:0 3px 0 var(--ink)}
+.badge{flex:none;width:84px;height:84px;border-radius:22px;background:var(--surface);background:color-mix(in srgb,var(--c) 16%,var(--surface));display:grid;place-items:center;border:2px solid var(--c);box-shadow:0 4px 0 var(--ink)}
+.badge img{width:64px;height:64px;object-fit:contain}
 /* gallery */
 .gallery{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 16px 18px;margin-inline:-16px;-webkit-overflow-scrolling:touch}
 .gallery img{flex:none;width:min(240px,62vw);border-radius:22px;border:3px solid var(--ink);box-shadow:0 5px 0 var(--ink);scroll-snap-align:center;background:var(--surface)}
